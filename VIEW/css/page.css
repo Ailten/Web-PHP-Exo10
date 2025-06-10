@@ -1,0 +1,99 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+aside, footer, section{
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 70%;
+    line-height: 14px;
+}
+
+h2{
+    color:rgb(255,255,255);
+    text-align: center;
+    background-color: rgb(34, 116, 172);
+}
+.visible {
+    visibility: visible;
+}
+.invisible {
+    visibility: hidden;
+}
+
+/*---- my table for exo3 ----*/
+.table3{
+    border: solid 1px black;
+    text-align: center;
+}
+.table3 td{
+    border: solid 1px black;
+    padding: 3px;
+}
+
+/*---- class for exo5 ----*/
+.ParagraphStyle_0{
+    color: black;
+    background: white;
+}
+
+.ParagraphStyle_1{
+    color: white;
+    background: black;
+}
+
+/*---- puissance 4 ----*/
+.P4_table{
+    background-color: grey;
+    margin: 0px auto;
+}
+.P4_table > tr > td{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.P4_table_score *{
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*---- formulaire exo 8 ----*/
+
+form#MyFormTest > h3{
+    font-weight: bold;
+}
+
+form#MyFormTest label > span{
+    color: red;
+}
+
+form#MyFormTest label{
+    display: block;
+    font-weight: normal;
+}
+
+form#MyFormTest label.inline{
+    display: inline;
+}
+
+form#MyFormTest > p{
+    margin: 20px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+/*----- form exo 9 --------*/
+
+span.errorRed{
+    color: red;
+}
